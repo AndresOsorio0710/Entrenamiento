@@ -117,9 +117,9 @@ const EnRaya = () => {
           En Raya
         </Typography>
         <Grid container spacing={0}>
-          <Grid item xs={4}></Grid>
+          <Grid item xs={3} md={4}></Grid>
 
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <Grid container spacing={0.2}>
               {tablero &&
                 tablero.map((c, index) => (
@@ -141,7 +141,7 @@ const EnRaya = () => {
                 ))}
             </Grid>
           </Grid>
-          <Grid item xs={4}></Grid>
+          <Grid item xs={3} md={4}></Grid>
         </Grid>
         {jugadorGanador === "" ? null : (
           <Typography variant="h2" color={"#839597"}>

@@ -40,7 +40,7 @@ const UseStyles = makeStyles(() => ({
     padding: 2,
   },
   cell: {
-    background: 'linear-gradient(45deg, #839597 30%, #89DAFF 90%)',
+    background: "linear-gradient(45deg, #839597 30%, #89DAFF 90%)",
     border: 0,
     borderRadius: 0,
     height: 64,
